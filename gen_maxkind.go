@@ -37,8 +37,6 @@ const Value = %d
 	if err := os.WriteFile(out, formatted, 0644); err != nil {
 		panic(err)
 	}
-
-	fmt.Printf("MaxKindValue = %d written to %s\n", maxKind, out)
 }
 
 func findMaxKind() int {
