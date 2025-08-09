@@ -11,7 +11,7 @@ import (
 
 func main() {
 	pkg := "maxkind"
-	out := "maxkind/value_generated.go"
+	out := "maxkind/value_gen.go"
 
 	// Find max reflect.Kind value
 	maxKind := findMaxKind()
